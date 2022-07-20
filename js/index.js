@@ -16,7 +16,7 @@ window.onload = function(event) {
     setTimeout(() => {
         let popup = document.querySelector(".popup")
         popup.classList.add('showPopup')
-    }, 1000)
+    }, 3000)
 
 }
 function closePopup() {
