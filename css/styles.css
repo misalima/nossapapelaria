@@ -426,35 +426,35 @@ color: #112552;
 .item1 {
     width: 350px;
     height: 350px;
-    background-image: url(/images/agenda.jpg);
+    background-image: url(../images/agenda.jpg);
 }   
 .item2 {
     width: 350px;
     height: 350px;
-    background-image: url(/images/estilete.jpg);
+    background-image: url(../images/estilete.jpg);
     
 }
 .item3 {
     width: 350px;
     height: 350px;
-    background-image: url(/images/grampeador.png);
+    background-image: url(../images/grampeador.png);
     
 }
 .item4 {
     width: 350px;
     height: 350px;
-    background-image: url(/images/caneta.jpg);
+    background-image: url(../images/caneta.jpg);
 }   
 .item5 {
     width: 350px;
     height: 350px;
-    background-image: url(/images/grafite.jpeg);
+    background-image: url(../images/grafite.jpeg);
     
 }
 .item6 {
     width: 350px;
     height: 350px;
-    background-image: url(/images/lapiseira.jpg);
+    background-image: url(../images/lapiseira.jpg);
     
 }
 .row-produtos span {
