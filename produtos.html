@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - Nossa Papelaria</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Adicionar fonte do Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <!-- Adicionar uma biblioteca de ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="inner-header">
+            <div class="topbar">
+                <div class="address"><a href="https://goo.gl/maps/H4DSzecouzbJnREK9"><i id="icone" class="fa fa-map-marker"></i></a><p>Av. Antônio Custódio Porto, 562, Centro, São Sebastião - AL</p></div>
+                <div class="phone"><a href="tel:8235421126"><i id="phone" class="fa fa-phone"></i></a><p>(82) 3542-1126</p></div>
+                <div class="social-media">
+                    <a target="_blank" href="https://www.facebook.com/nossapapelaria" class="social-link">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/nossapapelaria.al" class="social-link">
+                        <i id="insta" class="fa fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="header-container">
+            <div class="brand">
+                <a href="index.html"><img src="images/logo_small.png" alt="logo_img"></a>
+            </div>
+            <nav>
+                <div id="dropdown">
+                    <button onclick="ativarMenu()" class="dropbtn">MENU</button>
+                    <div id="dropMenu" class="menu">
+                        <a href="index.html">Home</a>
+                        <a href="servicos.html">Serviços</a>
+                        <a href="produtos.html">Produtos</a>
+                        <a href="sobre.html">Quem Somos</a>
+                        <a href="contato.html">Fale Conosco</a>
+                        
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="main-content">
+        <div class="grid-produtos">
+            <h2>Temos em nossa loja uma grande variedade de linhas e produtos. Conheça alguns deles:</h2>
+            <div class="row-produtos">
+                <div class="item1 itens">
+                    <span>Agenda 2021 Foroni</span>
+                </div>
+                <div class="item2 itens">
+                    <span>Estilete Jocar Office</span>
+                </div>
+                <div class="item3 itens">
+                    <span>Grampeador 20fls CIS C-10</span>    
+                </div>
+                <div class="item4 itens">
+                    <span>Caneta Compactor 07</span>
+                </div>
+                <div class="item5 itens">
+                    <span>Grafite Faber-Castell com 24 pontas</span>
+                </div>
+                <div class="item6 itens">
+                    <span>Lapiseira 0,7mm Compactor Aluno</span>
+                </div>
+            </div>
+            <hr>
+            <div class="convite">
+                <h2>Venha conhecer todos os nossos produtos! Faça-nos uma visita, ou entre em contato conosco pelo nosso Whatsapp: <a href="https://api.whatsapp.com/send/?phone=558235421126&text&app_absent=0">(82) 3543-1126!</a> Estamos esperando você!</h2>
+            </div>
+            <hr>
+        </div>
+        <div class="grid-container">
+            <div class="row">
+                <div class="servicos">
+                    <a href="servicos.html"><p class="img-label">Serviços</p></a>
+                </div>
+                <div class="produtos">
+                    <a href="produtos.html"><p class="img-label">Produtos</p></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-top">
+            <div class="menu-bottom">
+                <h3>Menu</h3>
+                <a href="index.html">Home</a>
+                <a href="servicos.html">Serviços</a>
+                <a href="produtos.html">Produtos</a>
+                <a href="sobre.html">Quem Somos</a>
+                <a href="contato.html">Fale Conosco</a>
+            </div>
+            <div class="atendimento">
+                <h3>atendimento</h3>
+                <a href="tel:8235421126"><i class="fa fa-phone"></i><p>(82) 3542-1126</p></a>
+                <p>Segunda à sexta, das 7:30 às 18:00. Sábado, das 7:30 às 13:00.</p>
+                <p>Fazemos entrega dentro da cidade.</p>
+            </div>
+            <div class="siga-nos">
+                <h3>Siga-nos</h3>
+                <a target="_blank" href="https://www.facebook.com/nossapapelaria" class="">
+                    <i id ="face2" class="fa fa-facebook"></i>
+                </a>
+                <a target="_blank" href="https://www.instagram.com/nossapapelaria.al" class="">
+                    <i id="insta2" class="fa fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy 2022, Misael Alisson Ursulino de Lima. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços - Nossa Papelaria</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Adicionar fonte do Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <!-- Adicionar uma biblioteca de ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="inner-header">
+            <div class="topbar">
+                <div class="address"><a href="https://goo.gl/maps/H4DSzecouzbJnREK9"><i id="icone" class="fa fa-map-marker"></i></a><p>Av. Antônio Custódio Porto, 562, Centro, São Sebastião - AL</p></div>
+                <div class="phone"><a href="tel:8235421126"><i id="phone" class="fa fa-phone"></i></a><p>(82) 3542-1126</p></div>
+                <div class="social-media">
+                    <a target="_blank" href="https://www.facebook.com/nossapapelaria" class="social-link">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/nossapapelaria.al" class="social-link">
+                        <i id="insta" class="fa fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="header-container">
+            <div class="brand">
+                <a href="index.html"><img src="images/logo_small.png" alt="logo_img"></a>
+            </div>
+            <nav>
+                <div id="dropdown">
+                    <button onclick="ativarMenu()" class="dropbtn">MENU</button>
+                    <div id="dropMenu" class="menu">
+                        <a href="index.html">Home</a>
+                        <a href="servicos.html">Serviços</a>
+                        <a href="produtos.html">Produtos</a>
+                        <a href="sobre.html">Quem Somos</a>
+                        <a href="contato.html">Fale Conosco</a>
+                        
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="main-content">
+        <div class="container-servicos">
+            <h2>Conheça nossos serviços:</h2>
+            <hr>
+            <ul>
+                <li>Fotocópias</li>
+                <li>Impressões</li>
+                <li>Digitalização de Documentos</li>
+                <li>Encadernações</li>
+                <li>Plastificações</li>
+                <li>Convites e Topos de Bolo</li>
+                <li>Painéis de Aniversário</li>
+            </ul>
+            <hr>
+            <h3>Também trabalhamos com design gráfico, desenvolvendo artes de diversos tipos, como convites, cartões de visita, logotipos, anúncios, etc., de acordo com o pedido do cliente!</h3>
+            <hr>
+        </div>
+        <div class="grid-container-servicos">
+            <div class="row">
+                <div class="servicos">
+                    <a href="servicos.html"><p class="img-label">Serviços</p></a>
+                </div>
+                <div class="produtos">
+                    <a href="produtos.html"><p class="img-label">Produtos</p></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-top">
+            <div class="menu-bottom">
+                <h3>Menu</h3>
+                <a href="index.html">Home</a>
+                <a href="servicos.html">Serviços</a>
+                <a href="produtos.html">Produtos</a>
+                <a href="sobre.html">Quem Somos</a>
+                <a href="contato.html">Fale Conosco</a>
+            </div>
+            <div class="atendimento">
+                <h3>atendimento</h3>
+                <a href="tel:8235421126"><i class="fa fa-phone"></i><p>(82) 3542-1126</p></a>
+                <p>Segunda à sexta, das 7:30 às 18:00. Sábado, das 7:30 às 13:00.</p>
+                <p>Fazemos entrega dentro da cidade.</p>
+            </div>
+            <div class="siga-nos">
+                <h3>Siga-nos</h3>
+                <a target="_blank" href="https://www.facebook.com/nossapapelaria" class="">
+                    <i id ="face2" class="fa fa-facebook"></i>
+                </a>
+                <a target="_blank" href="https://www.instagram.com/nossapapelaria.al" class="">
+                    <i id="insta2" class="fa fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy 2022, Misael Alisson Ursulino de Lima. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>

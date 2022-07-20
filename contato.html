@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco - Nossa Papelaria</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Adicionar fonte do Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <!-- Adicionar uma biblioteca de ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="inner-header">
+            <div class="topbar">
+                <div class="address"><a href="https://goo.gl/maps/H4DSzecouzbJnREK9"><i id="icone" class="fa fa-map-marker"></i></a><p>Av. Antônio Custódio Porto, 562, Centro, São Sebastião - AL</p></div>
+                <div class="phone"><a href="tel:8235421126"><i id="phone" class="fa fa-phone"></i></a><p>(82) 3542-1126</p></div>
+                <div class="social-media">
+                    <a target="_blank" href="https://www.facebook.com/nossapapelaria" class="social-link">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/nossapapelaria.al" class="social-link">
+                        <i id="insta" class="fa fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="header-container">
+            <div class="brand">
+                <a href="index.html"><img src="images/logo_small.png" alt="logo_img"></a>
+            </div>
+            <nav>
+                <div id="dropdown">
+                    <button onclick="ativarMenu()" class="dropbtn">MENU</button>
+                    <div id="dropMenu" class="menu">
+                        <a href="index.html">Home</a>
+                        <a href="servicos.html">Serviços</a>
+                        <a href="produtos.html">Produtos</a>
+                        <a href="sobre.html">Quem Somos</a>
+                        <a href="contato.html">Fale Conosco</a>
+                        
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--mailto:nossapapelaria.al@gmail.com-->
+    <div class="main-content">
+        <div class="contato">
+            <form action="mailto:nossapapelaria.al@gmail.com"   method="post">
+                <h2>Mande-nos uma mensagem!</h2>
+                <input type="text" name="nome" id="nome" placeholder="Seu nome" required>
+                <span class="erro-nome"></span>
+                <input onblur="" type="email" name="email" id="email" placeholder="Seu email" required>
+                <span class="erro-email"></span>
+                <textarea id="mensagem" name="mensagem" rows="4" placeholder="Digite aqui sua mensagem..." required></textarea>
+                <span class="erro-mensagem"></span>
+                <button type="submit" id="enviar">Enviar</button>
+            </form>
+        </div>
+        
+        <div class="mapa">
+            <h2>Faça uma visita e conheça nossa loja!</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.008169911453!2d-36.551658885418796!3d-9.933276992896918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x704334ec2f231c7%3A0x5cb8608cfaf194a8!2sNossa%20Papelaria!5e0!3m2!1spt-BR!2sbr!4v1656164234076!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h2>Estamos esperando você!</h2>
+        </div>
+    </div>
+
+
+    <footer class="footer-contato">
+        <div class="footer-top">
+            <div class="menu-bottom">
+                <h3>Menu</h3>
+                <a href="index.html">Home</a>
+                <a href="servicos.html">Serviços</a>
+                <a href="produtos.html">Produtos</a>
+                <a href="sobre.html">Quem Somos</a>
+                <a href="contato.html">Fale Conosco</a>
+            </div>
+            <div class="atendimento">
+                <h3>atendimento</h3>
+                <a href="tel:8235421126"><i class="fa fa-phone"></i><p>(82) 3542-1126</p></a>
+                <p>Segunda à sexta, das 7:30 às 18:00. Sábado, das 7:30 às 13:00.</p>
+                <p>Fazemos entrega dentro da cidade.</p>
+            </div>
+            <div class="siga-nos">
+                <h3>Siga-nos</h3>
+                <a target="_blank" href="https://www.facebook.com/nossapapelaria" class="">
+                    <i id ="face2" class="fa fa-facebook"></i>
+                </a>
+                <a target="_blank" href="https://www.instagram.com/nossapapelaria.al" class="">
+                    <i id="insta2" class="fa fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy 2022, Misael Alisson Ursulino de Lima. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+   <script src="js/contato.js"></script>
+   <script src="js/index.js"></script>
+</body>
+</html>
