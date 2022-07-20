@@ -211,7 +211,7 @@ header {
     height: 300px;
     width: 350px;
     margin: 20px 2%;
-    background: url(/images/servicos.jpg);
+    background: url(images/servicos.jpg);
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.836) 1px 1px 4px;
  }
@@ -220,7 +220,7 @@ header {
     height: 300px;
     width: 350px;
     margin: 20px 2%;
-    background: url(/images/produtos.png);
+    background: url(images/produtos.png);
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.801) 1px 1px 4px;
  }
