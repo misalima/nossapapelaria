@@ -11,10 +11,10 @@
         const mensagem = campoMensagem.value;
         
         //Validar campo 'Nome'
-        if (nome.length < 2) {
+        if (nome.length < 2 || nome.length > 20) {
             e.preventDefault();
             document.querySelector(".erro-nome").classList.add("erro");
-            document.querySelector(".erro-nome").innerHTML = "O nome inserido deve possuir entre 2 e 20 letras."
+            document.querySelector(".erro-nome").innerHTML = "O nome inserido deve possuir entre 2 e 20 caracteres."
             
         } else {
             document.querySelector(".erro-nome").classList.remove("erro");
