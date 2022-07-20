@@ -146,9 +146,9 @@ header {
     background: none;
     font-size: 1.5rem;
     font-weight: bold;
-    position: relative;
-    left: 725px;
-    top: 30px;
+    position: absolute;
+    right: 10px;
+    top: 0px;
     color: #112552;
 }
 .showPopup {
