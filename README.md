@@ -6,10 +6,10 @@ This is a project developed as an assignment for the Introduction to Web Technol
 This is a simple website for a stationery store in my city. It was one of the first websites I developed by myself. 
 Made with pure HTML, CSS, and Javascript. I can highlight the following features: 
 
-*Javascript controlled simple pop-up, a couple seconds after the home page is loaded;  
-*At the bottom of the page, using javascript I made those two images change each few seconds;  
-*In the "Fale Conosco" page, the contact form's inputs have javascript validation for each field, checking if the name has between 2 and 20 characters, if the email is valid, and if the message isn't empty. If valid inputs, the submit button will open the default mail app of the device to send the email.  
-*The website is responsive.
+* Javascript controlled simple pop-up, a couple seconds after the home page is loaded;  
+* At the bottom of the page, using javascript I made those two images change each few seconds;  
+* In the "Fale Conosco" page, the contact form's inputs have javascript validation for each field, checking if the name has between 2 and 20 characters, if the email is valid, and if the message isn't empty. If valid inputs, the submit button will open the default mail app of the device to send the email.  
+* The website is responsive.
 
 
 Site Nossa Papelaria
