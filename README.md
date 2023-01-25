@@ -18,6 +18,6 @@ Este é um projeto desenvolvido para a faculdade, como instrumento de avaliaçã
 Feito com HTML puro, CSS e Javascript. Posso destacar as seguintes características:
 
 * Pop-up simples controlado por Javascript, alguns segundos após o carregamento da página inicial;  
-* *Na parte inferior da página, usando javascript, fiz essas duas imagens mudarem a cada poucos segundos;  
-* *Na página "Fale Conosco", os inputs do formulário de contato possuem validação javascript para cada campo, verificando se o nome tem entre 2 e 20 caracteres, se o e-mail é válido, e se a mensagem não está vazia. Se as entradas forem válidas, o botão enviar abrirá o aplicativo de e-mail padrão do dispositivo para enviar o e-mail.  
-* *O site é responsivo.
+* Na parte inferior da página, usando javascript, fiz essas duas imagens mudarem a cada poucos segundos;  
+* Na página "Fale Conosco", os inputs do formulário de contato possuem validação javascript para cada campo, verificando se o nome tem entre 2 e 20 caracteres, se o e-mail é válido, e se a mensagem não está vazia. Se as entradas forem válidas, o botão enviar abrirá o aplicativo de e-mail padrão do dispositivo para enviar o e-mail.  
+* O site é responsivo.
